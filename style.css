@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background: #222;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 43px 0;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-links {
+    display: flex;
+    column-gap: 40px;
+}
+
+.header-link {
+    color: #999;
+
+}
+.begin {
+    text-align: center;
+    background: url("work1/bg.png")center/cover no-repeat;
+    padding: 226px 0 140px;
+
+}
+
+
+.begin-title {
+    margin-bottom: 29px;
+}
+
+.begin-btn {
+    background: transparent;
+    padding: 10px 26px;
+    border: 1px solid #00d6b4;
+    color: #00d6b4;
+}
+
+.work-title {
+    text-align: center;
+}
+
+.word-card img {
+    width: 300px;
+}
+
+.work {
+    padding: 43px 0 101px;
+
+}
+
+.work-title {
+    text-align: center;
+    margin-bottom: 33px;
+}
+
+.work-row {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 22px;
+}
+
+
+.word-card {
+    width: calc(33.33333% - 13.33333px);
+}
+
+img {
+    width: 100%;
+
+}
+
+.footer {
+    text-align: center;
+    padding: 37px 0 37px;
+
+}
+
+.footer-title {
+    margin-bottom: 10px;
+}
+
+
